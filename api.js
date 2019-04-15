@@ -28,7 +28,7 @@
                   cur_lesson.className = "cur_lesson";
                   cur_lesson.innerHTML = "Room:" + data[k].room + "<br>"
                     + "Instructor:" + data[k].responsible + "<br>"
-                    + " Lesson:" + data[k].title + "<br>"
+                    + " Course:" + data[k].title + "<br>"
                     +" Start: " + data[k].start_time +"<br>"
                     + "End:" + data[k].end_time;
             }
@@ -36,7 +36,7 @@
           if (typeof(cur_lesson) === 'undefined') {
             cur_lesson = document.createElement('div');
             cur_lesson.className = "cur_lesson";
-            cur_lesson.innerHTML = "Empty room:" + room;
+            cur_lesson.innerHTML = "Room:" + room + "<br> Empty";
           }
           document.getElementById('screen').appendChild(cur_lesson);
         });
