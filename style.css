@@ -20,7 +20,7 @@
 	background-color:#39668F;
 	font-size: 1.8em;
 	font-family:Cambria;
-	padding-top: 60px;
+	padding-top: 140px;
 	color: #fff;
 	text-align: center;
 
@@ -44,5 +44,6 @@ img{
 	font-size: 190%;
 }
 .empty_room{
+	margin-top: 250px;
 	font-size: 600%;
 }
