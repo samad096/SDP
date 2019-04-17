@@ -8,7 +8,7 @@
         }
         response.json().then(function(data) {
           var date = new Date();
-          //date.setHours(10,15);  // showing real time
+          date.setHours(10,15);  // showing real time
           var hours = date.getHours();
           var mins = date.getMinutes();
 
@@ -26,17 +26,16 @@
                (mins <= end_lesson[1])) || (hours < end_lesson[0]))){
                   cur_lesson = document.createElement('div');
                   cur_lesson.className = "cur_lesson";
-                  cur_lesson.innerHTML = "Room:" + data[k].room + "<br>"
-                    + "Instructor:" + data[k].responsible + "<br>"
-                    + " Course:" + data[k].title + "<br>"
-                    +" Start: " + data[k].start_time +"<br>"
-                    + "End:" + data[k].end_time;
+                  cur_lesson.innerHTML = "<span class='room_num'>"+data[k].room+"</span>" + "<br>" +"<br>"
+                    +"<span class='c_t_t'>"+ data[k].responsible + "<br>"
+                    + data[k].title + "<br>"
+                    + data[k].start_time.substr(0,5) + "-" + data[k].end_time.substr(0,5)+"</span>";
             }
           }
           if (typeof(cur_lesson) === 'undefined') {
             cur_lesson = document.createElement('div');
             cur_lesson.className = "cur_lesson";
-            cur_lesson.innerHTML = "Room:" + room + "<br> Empty";
+            cur_lesson.innerHTML = "<span class='empty_room'>" + room + "<br> Empty"+ "</span>";
           }
           document.getElementById('screen').appendChild(cur_lesson);
         });
