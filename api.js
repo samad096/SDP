@@ -8,7 +8,7 @@
         }
         response.json().then(function(data) {
           var date = new Date();
-          date.setHours(10,15);  // showing real time
+          //date.setHours(10,15);  // showing real time
           var hours = date.getHours();
           var mins = date.getMinutes();
 
@@ -28,7 +28,8 @@
                   cur_lesson.className = "cur_lesson";
                   cur_lesson.innerHTML = "<span class='room_num'>"+data[k].room+"</span>" + "<br>" +"<br>"
                     +"<span class='c_t_t'>" + data[k].title+ "</span>" +"<br>"
-                    + "<span class='small_ins'>" + data[k].responsible +"<br>" + data[k].start_time.substr(0,5) + "-" + data[k].end_time.substr(0,5)+ "</span>";
+                    + "<span class='small_ins'>" + data[k].responsible +"<br>"
+                    + data[k].start_time.substr(0,5) + "-" + data[k].end_time.substr(0,5)+ "</span>";
             }
           }
           if (typeof(cur_lesson) === 'undefined') {
