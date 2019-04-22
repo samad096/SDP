@@ -13,39 +13,60 @@
 	padding: 10px;
 	height: 700px;
 	border-right: 20px solid white; 
-	background-color:#B3284D;
+	background-color:#fff;
 }
 
 #screen{
 	background-color:#39668F;
 	font-size: 1.8em;
 	font-family:Cambria;
-	padding-top: 100px;
+	padding-top: 55px;
 	color: #fff;
-	text-align: center;
 
 }
 .apijs{
-	margin-left: 25%;
+	margin-left: 30%;
 	margin-top: 30px;
 	height: 700px;
-	width: 75%;
+	width: 70%;
 }
 img{
-	height:150px; 
-	width:250px;
-	margin-top: 240px;
-	margin-left: 15px;
+	height:290px; 
+	width:330px;
+	margin-top: 1%;
+	margin-left: 20px;
 }
 .room_num{
-	font-size: 900%;
+	font-size: 700%;
+	margin-left: 3%;
 }
-.c_t_t{
-	font-size: 192%;
+.less{
+	font-size:150%;
+	margin-left: 3%;
 }
-.empty_room{
-	font-size: 600%;
+.tch{
+	font-size:150%;
+	margin-left: 3%;
 }
-.small_ins{
-	font-size:140%;
+.dat{
+	font-size:150%;
+	margin-left: 3%;
 }
+.thr{
+border-left: 30px solid #B3284D;
+  height: 78%;
+  position: absolute;
+  left: 32%;
+  margin-left: -3px;
+ 
+
+}
+hr { 
+  display: block;
+  margin-top: 1.8em;
+  margin-bottom: 1.8em;
+  margin-left: 4%;
+  margin-right: 63%;
+  border-style: inset;
+  border-width:1%;
+} 
