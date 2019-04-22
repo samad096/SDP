@@ -11,8 +11,9 @@
 	float: left;
 	width: 14%;
 	padding: 1px;
-	height: 737px;
+	height: 740px;
 	background-color:#fff;
+	overflow-x:hidden;
 }
 
 #screen{
@@ -26,8 +27,9 @@
 .apijs{
 	margin-left: 30%;
 	margin-top: 1px;
-	height: 737px;
+	height: 740px;
 	width: 78%;
+	overflow-x:hidden;
 }
 img{
 	height:290px; 
