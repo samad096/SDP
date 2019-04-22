@@ -8,7 +8,7 @@
         }
         response.json().then(function(data) {
           var date = new Date();
-          date.setHours(10,15);  // showing real time
+          //date.setHours(10,15);  // showing real time
           var hours = date.getHours();
           var mins = date.getMinutes();
 
