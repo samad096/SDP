@@ -24,10 +24,13 @@
             if((((hours == start_lesson[0]) && (mins >= start_lesson[1])) ||
               (hours > start_lesson[0])) && (((hours == end_lesson[0]) &&
                (mins <= end_lesson[1])) || (hours < end_lesson[0]))){
+                  var crs_data = data[k].title.split('-',2);
+                  var course_desc = crs_data[0];
+                  var course_name = crs_data[1];
                   cur_lesson = document.createElement('div');
                   cur_lesson.className = "cur_lesson";
                   cur_lesson.innerHTML = "<span class='room_num'>"+data[k].room+"</span>" + "<br>" +"<br>"
-                   + "<span class='less'>"+ data[k].title +"</span>" +"<br>"+"<br>"
+                   + "<span class='desc'>"+ course_desc + "</span>" + "<br>" + "<span class= 'name'>" + course_name+ "</span>" +"<br>"+"<br>"
                    +"<span class='tch'>"
                    + data[k].responsible 
                    +"</span>"

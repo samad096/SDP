@@ -40,7 +40,11 @@ img{
 	font-size: 700%;
 	margin-left: 3%;
 }
-.less{
+.desc{
+	font-size:150%;
+	margin-left: 3%;
+}
+.name{
 	font-size:150%;
 	margin-left: 3%;
 }
