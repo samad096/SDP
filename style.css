@@ -11,10 +11,9 @@
 	float: left;
 	width: 14%;
 	padding: 1px;
-	height: 740px;
+	height: 738px;
 	background-color:#fff;
-	overflow-x:hidden;
-}
+   }
 
 #screen{
 	background-color:#336177;
@@ -27,9 +26,8 @@
 .apijs{
 	margin-left: 30%;
 	margin-top: 1px;
-	height: 740px;
+	height: 738px;
 	width: 78%;
-	overflow-x:hidden;
 }
 img{
 	height:290px; 
@@ -63,7 +61,11 @@ border-left: 30px solid #B3284D;
   position: absolute;
   left: 30%;
   margin-left: -3px;
- 
+}
+
+.empty_room{
+	font-size: 700%;
+	margin-left: 3%;
 
 }
 hr { 
