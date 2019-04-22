@@ -11,11 +11,10 @@
           //date.setHours(10,15);  // showing real time
           var hours = date.getHours();
           var mins = date.getMinutes();
-
           for(var k in data) {
             var start_lesson = data[k].start_time.split(':', 2);
             var end_lesson = data[k].end_time.split(':', 2);
-
+            
             start_lesson[0] = parseInt(start_lesson[0]);
             start_lesson[1] = parseInt(start_lesson[1]);
             end_lesson[0] = parseInt(end_lesson[0]);
