@@ -23,8 +23,7 @@
 
 }
 .apijs{
-	margin-left: 25%;
-	margin-top: 1px;
+	position: relative;
 	height: 770px;
 	width: 75%;
 }
