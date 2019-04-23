@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	overflow-x: hidden;
 }
 
 .index{
@@ -24,8 +25,8 @@
 }
 .apijs{
 	position: relative;
-	left: 20%;
-	bottom: 6%;
+	left: 25%;
+	bottom: 10%;
 	height: 770px;
 	width: 75%;
 	z-index: 10;
