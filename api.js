@@ -8,13 +8,13 @@
         }
         response.json().then(function(data) {
           var date = new Date();
-          //date.setHours(10,15);  // showing real time
+          date.setHours(10,15);  // showing real time
           var hours = date.getHours();
           var mins = date.getMinutes();
           for(var k in data) {
             var start_lesson = data[k].start_time.split(':', 2);
             var end_lesson = data[k].end_time.split(':', 2);
-            
+
             start_lesson[0] = parseInt(start_lesson[0]);
             start_lesson[1] = parseInt(start_lesson[1]);
             end_lesson[0] = parseInt(end_lesson[0]);
@@ -41,7 +41,7 @@
           if (typeof(cur_lesson) === 'undefined') {
             cur_lesson = document.createElement('div');
             cur_lesson.className = "cur_lesson";
-            cur_lesson.innerHTML = "<span class='empty_room'>" + room + "<br> Empty"+ "</span>";
+            cur_lesson.innerHTML = "<span class='empty_room'>" + room + "</span>"+ "<br>"+"<span class='no_class'> Empty </span>";
           }
           document.getElementById('screen').appendChild(cur_lesson);
         });
@@ -71,5 +71,5 @@
     var end_date = toDate.getFullYear() + "-" + (toDate.getMonth()+1) + "-" + toDate.getDate(); // Vaxti yenilemek ucun-tomorrow
     getApi(parameter, start_date, end_date);
   } else {
-    document.getElementById('screen').innerHTML = "<center>Please add a get parameter (room) to the link. Example: ?room=A102</center>";
+    document.getElementById('screen').innerHTML = "<center>Please add room number to. Example:room=A102</center>";
   }

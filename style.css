@@ -36,38 +36,41 @@ img{
 	margin-left: 14px;
 }
 .room_num{
-	font-size: 70%;
-	margin-left: 3%;
+	font-size: 700%;
+	margin-left: 5%;
 }
 .desc{
-	font-size:150%;
-	margin-left: 3%;
+	font-size:180%;
+	margin-left: 5%;
 }
 .name{
-	font-size:150%;
-	margin-left: 3%;
+	font-size:180%;
+	margin-left: 5%;
 }
 .tch{
-	font-size:150%;
-	margin-left: 3%;
+	font-size:180%;
+	margin-left: 5%;
 }
 .dat{
 	font-size:150%;
-	margin-left: 3%;
+	margin-left: 5%;
 }
 .thr{
-  border-left: 30px solid #B3284D;
-  height: 78%;
+  border-left: 35px solid #B3284D;
+  height: 75%;
   position: absolute;
-  left: 26%;
+  left: 24%;
   margin-left: -3px;
   z-index: 1;
 }
 
 .empty_room{
 	font-size: 700%;
-	margin-left: 3%;
-
+	margin-left: 5%;
+}
+.no_class{
+	font-size: 180%;
+	margin-left: 5%;
 }
 hr { 
   display: block;
