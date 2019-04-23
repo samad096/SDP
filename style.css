@@ -11,7 +11,7 @@
 	float: left;
 	width: 10%;
 	padding: 1px;
-	height: 775px;
+	height: 855px;
 	background-color:#fff;
    }
 
@@ -24,17 +24,17 @@
 
 }
 .apijs{
-	position: relative;
-	left: 26%;
-	bottom: 10%;
-	height: 775px;
+	position: absolute;
+	left: 25%;
+	bottom: 0.8%;
+	height: 855px;
 	width: 75%;
 }
 img{
 	height:290px; 
 	width:330px;
 	margin-top: 1%;
-	margin-left: 18px;
+	margin-left: 14px;
 }
 .room_num{
 	font-size: 70%;
