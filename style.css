@@ -24,6 +24,8 @@
 }
 .apijs{
 	position: relative;
+	left: 30%;
+	bottom: 3%;
 	height: 770px;
 	width: 75%;
 }
@@ -57,7 +59,7 @@ img{
   border-left: 30px solid #B3284D;
   height: 78%;
   position: absolute;
-  left: 32%;
+  left: 27%;
   margin-left: -3px;
 }
 
