@@ -29,9 +29,6 @@
 	bottom: 10%;
 	height: 780px;
 	width: 75%;
-	display: flex; 
-	flex-direction: column;
-	flex-shrink: 0;
 }
 img{
 	height:290px; 
