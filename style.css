@@ -24,7 +24,7 @@
 }
 .apijs{
 	position: relative;
-	left: 25%;
+	left: 26%;
 	bottom: 10%;
 	height: 770px;
 	width: 75%;
@@ -58,8 +58,8 @@ img{
 .thr{
   border-left: 30px solid #B3284D;
   height: 78%;
-  position: absolute;
-  left: 27%;
+  position: relative;
+  left: 14%;
   margin-left: -3px;
 }
 
