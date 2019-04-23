@@ -3,6 +3,7 @@
 }
 
 .index{
+	margin:auto 0;
 	max-width: 1280px;
 	max-height: 800px;
 }
@@ -58,9 +59,10 @@ img{
 .thr{
   border-left: 30px solid #B3284D;
   height: 78%;
-  position: relative;
-  left: 14%;
+  position: absolute;
+  left: 24%;
   margin-left: -3px;
+  z-index: 1;
 }
 
 .empty_room{
