@@ -57,7 +57,7 @@ img{
 .thr{
   border-left: 30px solid #B3284D;
   height: 78%;
-  position: relative;
+  position: absolute;
   left: 23%;
   margin-left: -3px;
 }
